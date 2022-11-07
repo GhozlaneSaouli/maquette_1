@@ -1,0 +1,56 @@
+
+body{
+    width: 100%;
+    overflow: scroll;    
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #2a2f36;
+    color: white;
+    padding: 1rem 10rem;
+}
+
+.left_header {
+      display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 50%;
+    list-style-type: none;
+    gap: 1rem;
+}
+
+.right_header {
+      display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 50%;
+    list-style-type: none;
+    gap: 2rem;
+}
+
+.donate_now {
+    margin-left: 20px;
+    background-color: #fc2c62;
+    border-color: #fc2c62;
+    margin-top: -12px;
+    margin-bottom: -12px;
+    padding-top: 9px;
+}
+
+.donate_now a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 2rem ;
+
+}
