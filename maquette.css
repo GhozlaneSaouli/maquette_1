@@ -66,3 +66,19 @@ body{
     font-weight: 500;
     padding: 2rem ;
 }
+
+.left_red_partie{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 50%;
+    list-style-type: none;
+    align-items: center;
+    gap: 1rem;
+    color: white;
+
+}
+
+
+
