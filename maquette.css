@@ -7,14 +7,13 @@ body{
 .content{
     display: flex;
     flex-direction: column;
-    background-color: aqua;
 }
 
 .container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 1rem 12rem;
+    padding: 1rem 10% 1rem 13%;
 }
 
 .header {
@@ -57,6 +56,7 @@ body{
     margin-top: -15px;
     margin-bottom: -15px;
     padding-top: 9px;
+   
 }
 
 .donate_now a {
@@ -68,17 +68,79 @@ body{
 }
 
 .left_red_partie{
-
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
     width: 50%;
-    list-style-type: none;
-    align-items: center;
     gap: 1rem;
     color: white;
-
+    height: 100%;
+    margin-top: 10% ;
+    font-size: larger;
+    line-height:  2rem;      
 }
 
+h1{
+    margin-top: 10px;
+    font-size: 60px;
+    line-height: 70px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;}
 
+.form{
+    padding: 9px;
+    border: solid;
+    display: flex;
+    flex-direction: column;   
+    list-style-type: none;    
+    gap: 2rem;
+    color:white; 
+    background: white;
+    width: 30%;
+    margin-top: 10% ;
+}
 
+.donate_noww{
+    width: max-content;
+        border: white 2px solid;
+        border-radius: 2rem;
+        margin-top: 3rem;
+        color: white;
+        font-size: 19px;
+        font-weight: 700;
+        padding: 8px 2rem;
+}
+ 
+h3{
+    color: black;
+    text-align: center; 
+    margin-top: 4%;
+}
+
+ input{    
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+ }
+
+ textarea{
+    width: 97%;
+ }
+
+ .But{
+    background-color: #fc2c62;
+    border-radius: 0.9rem;
+    width: 95PX;
+    color: white;
+    border:#fc2c62; 
+    padding: 10px;
+ }
+
+ .red_partie{
+    background: linear-gradient(#fc2c62,#da270c);
+ }
+
+ .container_img{
+    background-color: rgb(134, 187, 30);
+ }
