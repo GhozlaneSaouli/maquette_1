@@ -82,19 +82,27 @@ h1{
     font-size: 60px;
     line-height: 70px;
     font-family: 'Poppins', sans-serif;
-    font-weight: 800;}
+    font-weight: 800;
+}
+
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
 
 .form{
-    padding: 9px;
-    border: solid;
-    display: flex;
-    flex-direction: column;   
-    list-style-type: none;    
-    gap: 2rem;
-    color:white; 
-    background: white;
-    width: 30%;
-    margin-top: 10% ;
+    padding: 1rem;
+        border: solid;
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        gap: 1rem;
+        color: white;
+        background: white;
+        width: 25%;
+        margin: 8% 0;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 800;
 }
 
 .donate_noww{
@@ -141,6 +149,22 @@ h3{
     background: linear-gradient(#fc2c62,#da270c);
  }
 
- .container_img{
-    background-color: rgb(134, 187, 30);
+ .space_around{        
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1rem 10% 1rem 13%;
+    gap: 3rem;
+    margin-top: 3rem;      
+ }
+
+ .card{
+    border:#fc2c62 solid;
+    width: 33%;
+    background-color: #e84973;
+    color: white;
+    height: 100%;    
+    font-size: larger;
+    line-height: 2rem;
+    text-align: center;
  }
