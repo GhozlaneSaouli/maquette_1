@@ -91,7 +91,7 @@ h2{
 }
 
 .form{
-    padding: 1rem;
+        padding: 1rem;
         border: solid;
         display: flex;
         flex-direction: column;
@@ -107,13 +107,13 @@ h2{
 
 .donate_noww{
     width: max-content;
-        border: white 2px solid;
-        border-radius: 2rem;
-        margin-top: 3rem;
-        color: white;
-        font-size: 19px;
-        font-weight: 700;
-        padding: 8px 2rem;
+    border: white 2px solid;
+    border-radius: 2rem;
+    margin-top: 3rem;
+    color: white;
+    font-size: 19px;
+    font-weight: 700;
+    padding: 8px 2rem;
 }
  
 h3{
@@ -167,4 +167,105 @@ h3{
     font-size: larger;
     line-height: 2rem;
     text-align: center;
+ }
+
+ .title_second{
+
+        font-family: 'Poppins', sans-serif;
+        position: relative;
+        color: #292929;
+        font-weight: 700;
+        font-size: 42px; 
+        margin-bottom: 18px;
+        margin-left: 20px ;
+            
+ }  
+
+span{
+    color:#fc2c62 ;
+}
+
+.sous_title{
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 30px;
+  margin-left: 20px
+}
+
+.separateur{
+    display: block;
+    margin-top: 20px; 
+}
+
+ .container_img{
+    background-color:rgb(242, 242, 242); 
+    margin-top: 2.5%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 10% 1rem 13%;    
+ }
+   
+ .card_img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+ }
+
+ .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+ }
+
+ img {
+    border-radius: 5px 5px 0 0;
+ }
+
+ .rest_img {
+    padding: 2px 16px;
+ }
+
+ h4{
+    font-family: 'Poppins', sans-serif;
+    color: #292929;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 800;
+    margin-top: 0;
+    margin-bottom: 20px;;
+ }
+
+.para{
+    color:#767676;
+    font-size   : 20px;
+}
+
+ .flexRowStart {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+ }
+
+ .flexRowBetween {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5px;
+ }
+
+ .flexCenter {
+    display: flex;
+    justify-content: center;
+ }
+
+ .allCause {
+    width: max-content;
+    border: #fc2c62 2px solid;
+    border-radius: 2rem;
+    margin-top: 3rem;
+    background-color: #fc2c62;
+    color: white;
+    font-size: 19px;
+    font-weight: 700;
+    padding: 8px 2rem;
  }
