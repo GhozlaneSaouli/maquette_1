@@ -269,3 +269,22 @@ span{
     font-weight: 700;
     padding: 8px 2rem;
  }
+
+ .container_footer{
+     
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      text-align: center;
+      color: white;
+     
+       
+ }
+ .text_img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 2rem;
+    padding-top: 0%;
+ }
